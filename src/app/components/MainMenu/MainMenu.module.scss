@@ -1,0 +1,25 @@
+.Wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #243234E5;
+    z-index: 2;
+    padding: 0 12px;
+    .Header {
+        margin-bottom: 27px;
+        .Cross {
+            margin-right: 86px;
+            margin-left: -12px;
+        }
+    }
+    .LinksList {
+        .Link {
+            font-size: 1.5rem;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            font-family: var(--font-Gilroy);
+        }
+    }
+}

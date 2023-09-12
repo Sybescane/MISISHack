@@ -1,0 +1,80 @@
+.Wrapper{
+    background-color: black;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    .HackCalendar{
+        padding: 10px 10px;
+        height: 100vh;
+        overflow-y: auto;
+        .Hack{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
+            h4{
+                color: greenyellow;
+            }
+            p{
+                color: rgba(92, 100, 102, 1);
+            }
+        }
+    }
+    .News{
+        margin: 10px;
+        .Filter{
+            h6{
+                color: white;
+                font-size: 25px;
+                font-weight: 700;
+                margin-bottom: 7px;
+            }
+            .FilterContent{
+                display: flex;
+                gap: 30px;
+                .InputBlock{
+                    display: flex;
+                    gap: 5px;
+                   
+                    label{
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: white;
+                    }
+                    input{
+                        width: 29px;
+                    }
+                }
+            }
+        }
+        .Content {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            .Hacks{
+                display: block;
+                text-decoration: none;
+                color: white;
+                h5{
+                    font-size: 25px;
+                }
+                .Image{
+                    width: 200px;
+                    height: 182px;
+                }
+            }
+            .Activities{
+                text-decoration: none;
+                display: block;
+                color: white;
+                .Image{
+                    width: 200px;
+                }
+                h5{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

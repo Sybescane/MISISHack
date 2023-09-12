@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.StandardButton {
+    width: 467px;
+            height: 57px;
+            background-color: #7AD088;
+            border: none;
+            color: white;
+            font-size: 32px;
+            cursor: pointer;
+}
+.StandardButton:hover{
+    background-color: rgb(8, 231, 8);
+    transition: all 1s ease-out;
+}

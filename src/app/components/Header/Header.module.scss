@@ -1,0 +1,27 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #243234;
+    align-items: center;
+    padding: 1px 12px;
+    .LogoMenu {
+        display: flex;
+        align-items: center;
+        .Logo {
+            margin-left: 86px;
+        }
+    }
+    .SignUpBtn {
+        width: 156px;
+        height: 37px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        background-color: #7AD088;
+        color: white;
+        border: none;
+       
+    }
+    .SignInBtn:hover{
+        background-color: #55ee6f;
+    }
+}

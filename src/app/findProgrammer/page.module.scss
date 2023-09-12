@@ -1,0 +1,20 @@
+.Wrapper{
+    background-color: black;
+    min-height: 100vh;
+    color: white;
+    .Content {
+        width: 1200px;
+        margin: 0 auto;
+        .Title {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 50px;
+            input {
+                height: 20px;
+                width: 300px;
+            }
+        }
+        
+    }
+}
